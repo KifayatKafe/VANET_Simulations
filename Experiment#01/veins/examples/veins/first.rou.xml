@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo-sim.org/xsd/routes_file.xsd"> -->
+<routes>
+
+	<vType id="car" vClass="passenger" length="5.0"  accel= "3.0" decel	= "7.5" sigma="0.0" maxSpeed= "50.0" color= "0,1,0" />
+    <vType id="bus" vClass="bus"       length="12"   accel= "1.0" decel	= "4.0" sigma="0.0" maxSpeed= "22.22"  color="1,1,0"/>
+	<route id="left2right-traffic" edges="1to2l outl" />
+    <route id="right2left-traffic" edges="1to2r outr" />
+ 
+ 
+<flow id="carsl" begin="0" type="car" route="left2right-traffic" departLane="2" departPos="0"   period="0" number="1" />
+
+<flow id="carsr" begin="0" type="car" route="right2left-traffic" departLane="2" departPos="0"   period="0" number="1" />
+
+
+
+</routes>
+
