@@ -1,0 +1,9 @@
+<routes>
+<vType id="car" length="5.0"  accel= "1.0" decel= "5.0" sigma="0.0" maxSpeed= "100.0" color= "0,1,0" />
+    <route id="right2left-traffic" edges="1to2r outr" />
+    <route id="left2right-traffic" edges="1to2l outl" />
+
+    <vehicle depart="1" id="veh0" route="right2left-traffic" type="car" />
+    <vehicle depart="1" id="veh1" route="left2right-traffic" type="car" />
+</routes>
+
