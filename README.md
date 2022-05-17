@@ -4,4 +4,4 @@ We will focus on the simulations of smart vehicles using the SUMO, OMNET++, & Ve
 
 Acknowledgments
 ===============
-I am thankful to the São Paulo Research Foundation (FAPESP) for providing financial assistance under the Processo # 2021/10647-8 
+I am thankful to the São Paulo Research Foundation (FAPESP) for providing financial assistance under the Process # 2021/10647-8 
